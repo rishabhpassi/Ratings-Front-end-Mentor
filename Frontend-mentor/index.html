@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div class="main">
+    <div class="inner-box">
+      <div class="show">
+        <div class="circle">
+          <img src="./images/icon-star.svg" alt="icon-star" class="icon-star">
+        </div>
+        <h3>How did we do?</h3>
+        <p> Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+          offering!</p>
+        <div class="ratings">
+          <Form>
+            <Input Type="Radio" Id="Rate1" Name="Rating" Value="1">
+            <Label For="Rate1">1</Label>
+
+            <Input Type="Radio" Id="Rate2" Name="Rating" Value="2">
+            <Label For="Rate2">2</Label>
+
+            <Input Type="Radio" Id="Rate3" Name="Rating" Value="3">
+            <Label For="Rate3">3</Label>
+
+            <Input Type="Radio" Id="Rate4" Name="Rating" Value="4">
+            <Label For="Rate4">4</Label>
+
+            <Input Type="Radio" Id="Rate5" Name="Rating" Value="5">
+            <Label For="Rate5">5</Label>
+
+            <Span Class="Focus-Ring"></Span>
+
+
+          </Form>
+          <input type="submit" class="submit">
+
+        </div>
+      </div>
+      <!-- Thank you state start -->
+
+      <div class="thanks-state">
+        <img src="./images/illustration-thank-you.svg" alt="thanku">
+        <div class="first">
+          You selected
+          <!-- Add rating here --> <span id="rate"></span> out of 5
+
+        </div>
+        <h3 class="thanks">Thank you!</h3>
+        <p>
+
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+
+        </p>
+      </div>
+
+      <!-- Thank you state end -->
+
+    </div>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

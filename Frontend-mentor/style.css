@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.thanks-state {
+    display: none;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+
+    background-color: black;
+}
+
+h1,
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.main {
+    background-color: hsl(216, 12%, 54%);
+    background: linear-gradient(58deg, rgba(2, 17, 60, 1) 20%, rgba(62, 69, 89, 1) 100%);
+    padding: 1.5rem;
+    margin: auto;
+    max-width: 20rem;
+    max-height: 30rem;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.circle img {
+    border-radius: 50%;
+    height: 1rem;
+    padding: 1rem;
+    background-color: darkslategrey;
+
+}
+
+.inner-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+
+}
+
+.inner-box p {
+    color: hsl(216, 12%, 54%);
+}
+
+input[type="radio" i] {
+    display: none;
+}
+
+label {
+    background: #e3e3e3;
+    border-radius: 30%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #6e6e6e;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+form {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+label:hover {
+    color: white;
+    background-color: #6e6e6e;
+}
+
+label:checked,
+input[type=radio]:checked+label,
+label:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit {
+    color: hsl(25, 97%, 53%);
+    border-radius: 20%;
+    width: 100%;
+    height: 2rem;
+    font-family: 'Overpass';
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.thanks-state {
+
+    text-align: center;
+
+}
+
+.first {
+    margin-top: .5rem;
+    color: hsl(25, 97%, 53%);
+    border-radius: 10px;
+    height: 10px;
+    padding: 10px;
+    background-color: rgb(42, 57, 57);
+    text-align: center;
+    display: inline-block;
+
+
+
+
+
+}
